@@ -1,30 +1,29 @@
 import React, { useState } from "react";
 import axios from "axios";
 import GlobalStateContext from "./GlobalStateContext";
-
+import { api } from "../constants/urls";
 
 const GlobalState = (props) => {
-  const [exemplo, setExemplo] = useState([]);
+  const [users, setUsers] = useState([]);
+  const [search, setSearch] = useState('');
+  const [searched, setSearched] = useState(false)
 
 
+  const getUsers = () => {
+    axios.get(`${api.baseURL}/${search}`, {
+    }).then((response) => {
+      setUsers(response.data);
+    }).catch((error) => {
+      console.log(error)
+    })
+    setSearch('');
+  };
 
-  // const getRestaurants = () => {
-  //   axios.get(`${UrlApi}/restaurants`, {
-  //     headers: {
-  //       auth: localStorage.getItem('token'),
-  //       "Content-Type": "application/json"
-  //     }
-  //   }).then((response) => {
-  //     setRestaurants(response.data.restaurants)
-  //   }).catch((error) => {
-  //     console.log(error)
-  //   })
-  // };
 
-  const states = { exemplo };
-  const setters = { setExemplo };
-  const requests = { getRestaurants };
-  const data = { states };
+  const states = { users, search, searched };
+  const setters = { setSearch, setSearched };
+  const requests = { getUsers };
+  const data = { states, setters, requests};
 
   return (
     <GlobalStateContext.Provider value={data}>
