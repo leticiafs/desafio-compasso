@@ -1,0 +1,38 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.input {
+  background-color: beige;
+  height: 2.8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  padding-left: 10px;
+  width: 40%;
+  border-radius: 10px;
+}
+
+.lupa {
+  width: 6%;
+  height: 3.1em;
+  background-color: snow;
+  border-radius: 10px;
+}
+
+.searchbox {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 15%;
+  margin-bottom: 3em;
+}

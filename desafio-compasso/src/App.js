@@ -1,12 +1,16 @@
 import './App.css';
+import GlobalState from './global/GlobalState';
+import Router from './routes/Router';
+
 
 function App() {
   return (
-    <div className="App">
-      <section className="section">
-        teste
-      </section>
-    </div>
+      <div className="App">
+        <GlobalState>
+          <Router/>
+        </GlobalState>
+      </div>
+  
   );
 }
 
