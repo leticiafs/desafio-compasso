@@ -13,7 +13,7 @@ export const SearchResults = () => {
   return (
     <div className="container">
       <Search/>
-      {states.searched ? <CardUser/> : <div></div> }
+      {states.searched ? <CardUser/> : null }
     </div>
   )
 };

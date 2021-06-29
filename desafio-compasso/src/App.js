@@ -1,6 +1,6 @@
 import './App.css';
 import GlobalState from './global/GlobalState';
-import Router from './routes/Router';
+import Router from './routes/router';
 
 
 function App() {
