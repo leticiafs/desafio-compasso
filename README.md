@@ -1,4 +1,4 @@
-![labexx](https://user-images.githubusercontent.com/53658438/121280546-e1040800-c8ac-11eb-8e72-0087d1ba858e.png)
+![dc](https://user-images.githubusercontent.com/53658438/123729004-a7e70400-d86a-11eb-82af-f96f8630aadc.png)
 
 # Desafio Compasso UOL
 
@@ -10,13 +10,11 @@
 
 ### Web
 <p float="left" align="center">
-  
-  <img src="https://user-images.githubusercontent.com/53658438/121277456-ffff9b80-c8a6-11eb-9425-0cf71a137f93.png" width="240" height="135">
-  <img src="https://user-images.githubusercontent.com/53658438/121277462-01c95f00-c8a7-11eb-8215-4c6fc480671d.png" width="240" height="135">
-  <img src="https://user-images.githubusercontent.com/53658438/121277464-01c95f00-c8a7-11eb-91a5-6d3165c32bbd.png" width="240" height="135">
-  <img src="https://user-images.githubusercontent.com/53658438/121277465-0261f580-c8a7-11eb-93a1-5c2c350abc8c.png" width="240" height="135">
-  <img src="https://user-images.githubusercontent.com/53658438/121277467-02fa8c00-c8a7-11eb-8dda-46e0e100d029.png" width="240" height="135">
-  <img src="https://user-images.githubusercontent.com/53658438/121277469-02fa8c00-c8a7-11eb-81fb-63845647abd3.png" width="240" height="135">
+  <img src="https://user-images.githubusercontent.com/53658438/123728686-0fe91a80-d86a-11eb-9799-4f7de97683f6.jpeg" width="240" height="135">
+  <img src="https://user-images.githubusercontent.com/53658438/123728734-28593500-d86a-11eb-817c-5ed7b45a6bdb.jpeg" width="240" height="135">
+  <img src="https://user-images.githubusercontent.com/53658438/123728783-4161e600-d86a-11eb-9714-48e66dd78520.jpeg" width="240" height="135">
+  <img src="https://user-images.githubusercontent.com/53658438/123728734-28593500-d86a-11eb-817c-5ed7b45a6bdb.jpeg" width="240" height="135">
+  <img src="https://user-images.githubusercontent.com/53658438/123728789-43c44000-d86a-11eb-8c55-867b5b103696.jpeg" width="240" height="135">
 </p>
 
 
