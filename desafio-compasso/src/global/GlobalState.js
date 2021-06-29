@@ -10,13 +10,19 @@ const GlobalState = (props) => {
 
 
   const getUsers = () => {
-    axios.get(`${api.baseURL}/${search}`, {
+    axios.get(`${api.baseURL}/${search}?client_id=${api.client_id}&client_secret=${api.client_secret}`, {
     }).then((response) => {
       setUsers(response.data);
     }).catch((error) => {
-      console.log(error)
+      alert('Usuário não encontrado');
+      refreshPage()
+    
     })
     setSearch('');
+  };
+
+  const refreshPage = () => {
+    window.location.reload()
   };
 
 
